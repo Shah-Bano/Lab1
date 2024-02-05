@@ -1,0 +1,10 @@
+body {
+    background-image: url("./images/home-page-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Add any additional styles for other elements if needed */
