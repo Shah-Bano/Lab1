@@ -1,10 +1,114 @@
-body {
-    background-image: url("./images/home-page-background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
+.backGround {
+    background-image: url('./homebg.jpg');
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic; 
+    color: #0a6e35; 
+
 }
 
-/* Add any additional styles for other elements if needed */
+#home-page-text {
+    text-align: center; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: rgb(10, 110, 53); 
+    font-size: 45px; 
+    
+
+}
+
+
+.media-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.media-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.media-item {
+    width: 35%; 
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    position: relative;
+    border: 0px;
+}
+
+.media-item img {
+    width: 100%; 
+    border-radius: 5px; 
+}
+
+.media-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border: 0px;
+}
+
+.bottom-media {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.services-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.service-item {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.service-item img {
+    width: 50%; /* Set the width of the image */
+    margin-bottom: 10px; /* Add some spacing between image and text */
+}
+
+
+.about-us-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.about-content {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.about-content img {
+    width: 100%; /* Set the width of the image to 100% */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
